@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src='index.js'>
+
+    </script>
+    <style>
+        #boxes {
+            width: 50%;
+        }
+
+        #boxes tr,
+        #boxes td {
+            border: 1px solid black;
+            margin: 0;
+            padding: 0;
+        }
+
+        #boxes td.closed {
+            background-color: grey;
+        }
+
+        #boxes td.beginning {
+            background-color: blue !important;
+        }
+        #boxes td.destination {
+            background-color: blue;
+        }
+        #boxes td.traversed {
+            background-color: green ;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <table id="boxes">
+        <tr>
+            <td class="beginning">&nbsp;</td>
+            <td class="open">&nbsp;</td>
+            <td class="closed">&nbsp;</td>
+            <td class="open">&nbsp;</td>
+            <td class="open">&nbsp;</td>
+
+        </tr>
+        <tr>
+            <td class="open">&nbsp;</td>
+            <td class="closed">&nbsp;</td>
+            <td class="closed">&nbsp;</td>
+
+            <td class="open">&nbsp;</td>
+            <td class="open">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="open">&nbsp;</td>
+            <td class="open">&nbsp;</td>
+            <td class="open">&nbsp;</td>
+            <td class="open">&nbsp;</td>
+            <td class="open">&nbsp;</td>
+
+        </tr>
+        <tr>
+            <td class="open">&nbsp;</td>
+            <td class="closed">&nbsp;</td>
+            <td class="closed">&nbsp;</td>
+            <td class="destination">&nbsp;</td>
+            <td class="open">&nbsp;</td>
+
+        </tr>
+        <tr>
+            <td class="open">&nbsp;</td>
+            <td class="open">&nbsp;</td>
+            <td class="open">&nbsp;</td>
+            <td class="open">&nbsp;</td>
+            <td class="open">&nbsp;</td>
+
+        </tr>
+    </table>
+
+</body>
+
+</html>
